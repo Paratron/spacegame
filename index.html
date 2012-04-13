@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Awesome Space Game!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style>
+        html, body{
+            margin: 0;
+            padding:  0;
+            background:  #000; /* Deep Space black, whoo! */
+        }
+    </style>
+</head>
+<body>
+    <!-- This will hold our rendering object -->
+    <div id="game"></div>
+
+    <!-- The three.js render engine -->
+    <script src="three.js"></script>
+
+    <!-- require.js module loader, loads the file game/main.js as the default module -->
+    <script src="require.js" data-main="game/main"></script>
+</body>
+</html>
